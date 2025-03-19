@@ -33,7 +33,9 @@ public class BoundaryLeVillage {
 			question.append("2 - un marchand\n");
 			question.append("3 - un client du marche\n");
 			question.append("4 - quitter l'application");
+			
 			choixUtilisateur = Clavier.entrerEntier(question.toString());
+			
 			if (choixUtilisateur > 0 && choixUtilisateur < 4) {
 				String nom = Clavier.entrerChaine("Quel est votre nom ?");
 				switch (choixUtilisateur) {

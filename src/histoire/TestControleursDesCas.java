@@ -50,14 +50,14 @@ public class TestControleursDesCas {
 //		- Obelix
 
 		// Cas 3 : Verifier Identification
-//		System.out.println("///////////////////////////////");
-//		System.out.println("Cas 3 : Verifier Identification");
-//		ControlVerifierIdentite controlVerifierIdentite = new ControlVerifierIdentite(
-//				village);
-//		boolean vendeur = controlVerifierIdentite.verifierIdentite("Panoramix");
-//		System.out.println("Panoramix est un villageois ? " + vendeur);
-//		vendeur = controlVerifierIdentite.verifierIdentite("Intrus");
-//		System.out.println("Intrus est un villageois ? " + vendeur);
+		System.out.println("///////////////////////////////");
+		System.out.println("Cas 3 : Verifier Identification");
+		ControlVerifierIdentite controlVerifierIdentite = new ControlVerifierIdentite(
+				village);
+		boolean vendeur = controlVerifierIdentite.verifierIdentite("Panoramix");
+		System.out.println("Panoramix est un villageois ? " + vendeur);
+		vendeur = controlVerifierIdentite.verifierIdentite("Intrus");
+		System.out.println("Intrus est un villageois ? " + vendeur);
 
 //		Sortie Console :
 		
@@ -68,12 +68,12 @@ public class TestControleursDesCas {
 
 		// Cas 4 : Prendre etal
 
-//		System.out.println("///////////////////////////////");
-//		System.out.println("Cas 4 : Prendre etal");
-//		ControlPrendreEtal controlPrendreEtal = new ControlPrendreEtal(
-//				controlVerifierIdentite, village);
-//		int numeroEtal = controlPrendreEtal.prendreEtal("Obelix", "fleur", 5);
-//		System.out.println("Obelix a pris l'étal n°" + numeroEtal);
+		System.out.println("///////////////////////////////");
+		System.out.println("Cas 4 : Prendre etal");
+		ControlPrendreEtal controlPrendreEtal = new ControlPrendreEtal(
+				controlVerifierIdentite, village);
+		int numeroEtal = controlPrendreEtal.prendreEtal("Obelix", "fleur", 5);
+		System.out.println("Obelix a pris l'étal n°" + numeroEtal);
 
 //		Sortie Console :
 //		Cas 4 : Prendre etal
